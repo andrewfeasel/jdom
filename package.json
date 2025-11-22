@@ -1,0 +1,32 @@
+{
+  "name": "@andrewfeasel/jdom",
+  "version": "1.0.3",
+  "description": "Lightweight, portable DOM manipulation utilities",
+  "author": "Andrew Feasel",
+  "license": "MIT",
+  "keywords": [
+    "dom",
+    "query",
+    "utilities"
+  ],
+  "type": "module",
+  "main": "jdom.js",
+  "exports": {
+    ".": "./jdom.js"
+  },
+  "files": [
+    "jdom.js",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewfeasel/jdom.git"
+  },
+  "homepage": "https://github.com/andrewfeasel/jdom#readme",
+  "bugs": {
+    "url": "https://github.com/andrewfeasel/jdom/issues"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  }
+}
