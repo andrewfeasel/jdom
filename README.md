@@ -4,11 +4,13 @@ it works in the browser, and it is compatible with the "jsdom" package on NPM.
 
 ## INSTALLATION
 Run this command to install jDOM:
+
 	npm install @andrewfeasel/jdom
 
 ## IMPORTING
 jDOM uses ES Module syntax, so put type="module" in package.json,
 or in your script tag. Imports look like this:
+
 	import $J from "./jDOM.js";
 
 ## USAGE
